@@ -1,0 +1,55 @@
+body {
+  width: 1000px;
+  margin: 100px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(0, 0, 201);
+}
+.coachtech {
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.list {
+  list-style: none;
+  padding-top: 25px;
+  display: flex;
+}
+.list * {
+  margin-right: 25px;
+  font-size: 13px;
+}
+main {
+  min-height: 500px;
+}
+main {
+  position: relative;
+}
+img {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 70px;
+  z-index: 1;
+}
+div {
+  width: 750px;
+  height: 30%;
+  z-index: 0;
+  position: absolute;
+  top: 270px;
+}
+h2 {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: -15px;
+  font-size: 45px;
+  font-weight: lighter;
+}
+p {
+  background-color: blue;
+  height: 140px;
+  margin: 0px;
+}
